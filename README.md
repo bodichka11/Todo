@@ -33,10 +33,10 @@ How long did task take you to complete?
 Approximately 2 hours.
 
 Was the code ready to run after generation? What did you have to change to make it usable?
-The code was mostly ready, but minor adjustments were needed for NuGet package installation and database migration setup.
+The code was mostly ready, but I had to change the connection string and switch the provider to SQL Server (SSMS) for convenience and better compatibility with my workflow.
 
 Which challenges did you face during completion of the task?
-Configuring EF Core with MySQL required some additional research, particularly for connection string syntax.
+Configuring EF Core for SQL Server and ensuring the connection string was correct for the SSMS setup.
 
 Which specific prompts you learned as a good practice to complete the task?
 "Provide step-by-step implementation with explanation and code snippets."
